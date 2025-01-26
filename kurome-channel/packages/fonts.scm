@@ -1,6 +1,6 @@
 (define-module (kurome-channel packages fonts)
   #:use-module (guix packages)
-  #:use-module ((guix licenses) #:prefix license:)
+  #:use-module (guix licenses)
   #:use-module (guix download)
   #:use-module (guix build-system font))
 
@@ -22,4 +22,4 @@
    (synopsis "Symbols-only nerd fonts")
    (description
     "symbols-nerd-font description dayo")
-   (license license:unlicense)))
+   (license expat)))
